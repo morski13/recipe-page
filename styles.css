@@ -52,6 +52,7 @@ li{
     width: 4rem;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
+    height: fit-content;
 }
 
 .recipe-image{
