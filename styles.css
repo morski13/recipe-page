@@ -57,11 +57,10 @@ li{
     height: fit-content;
 }
 
-.omelette{
-    width: 5rem;
-    height: 5rem; /* Dodaj visinu */
-    border-radius: 50%; /* Zadrži oblik kruga */
-    object-fit: cover; /* Ako treba da slika popuni prostor */
+.recipe-image{
+    width: 20%;
+    height: auto;
+    margin-right: 1rem;
 }
 
 
