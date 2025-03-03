@@ -3,14 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  
+ 
+  <link rel="stylesheet" href="./assets/fonts/young-serif/YoungSerif-Regular.ttf">
+ <link rel="stylesheet" href="./assets/fonts/outfit/Outfit-VariableFont_wght.ttf">
+ <link rel="stylesheet" href="styles.css">
+ 
   <title>Frontend Mentor | Recipe page</title>
 
  
 </head>
 <body>
 
-  <h1>Simple Omelette Recipe</h1>
+  <div class="recipe">
+
+    <div class="recipe-image">
+      <img src="./assets/images/image-omelette.jpeg" alt="Simple omelette">
+    </div>
+
+    <h1>Simple Omelette Recipe</h1>
 
   <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
   to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
@@ -18,7 +28,7 @@
  <div class="preperation">
   <div class="prep-time">Preparation time</div>
 
-  <ul>
+  <ul class="prep">
     <li><b>Total</b>: Approximately 10 minutes</li>
     <li><b>Preparation</b>: 5 minutes</li>
     <li><b>Cooking</b>: 5 minutes</li>
@@ -37,6 +47,8 @@
   </ul>
 
   <h2>Instructions</h2>
+
+  <p>The table below shows nutritional Values per serving without the additionalo fillings.</p>
 
   <ol>
 
@@ -66,6 +78,7 @@
   <li>
     <b>Enjoy</b>Serve hot, with additional salt and pepper if needed.
   </li>
+  </ol>
 
   <h2>Nutrition</h2>
   
@@ -78,7 +91,7 @@
       <td>
         Calories
       </td>
-      <td>
+      <td class="numbers">
         277kcal
       </td>
     </tr>
@@ -86,7 +99,7 @@
       <td>
         Carbs
       </td>
-      <td>
+      <td class="numbers">
         0g
       </td>
     </tr>
@@ -94,7 +107,7 @@
       <td>
         Protein
       </td>
-      <td>
+      <td class="numbers">
         20g
       </td>
     </tr>
@@ -102,11 +115,13 @@
       <td>
         Fat
       </td>
-      <td>
+      <td class="numbers">
         22g
       </td>
     </tr>
   </table>
+  </div>
+  
   
 </body>
 </html>
