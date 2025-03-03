@@ -1,6 +1,7 @@
 body{
     display: flex;
-    align-self: center;
+    align-items: center;
+    justify-content: center; 
     height: 100vh;
     background-color:hsl(30, 18%, 87%) ;
 }
@@ -48,13 +49,14 @@ li{
 }
 
 .recipe{
-    padding: 4rem;
+    width: 4rem;
     background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
 }
 
 .recipe-image{
-    width: 5rem;
-    border-radius: 20px;
+    width: 80%;
+    border-radius: 50%;
 }
 
 .preparation{
@@ -68,14 +70,24 @@ li{
     color: hsl(332, 51%, 32%);
 }
 
-.prep li {
-    list-style-type: disc; /* Ovo omogućava korišćenje tačaka */
-    color: hsl(332, 51%, 32%); /* Postavljamo boju tačaka */
-}
-  
 .prep {
-    list-style-position: inside; /* Opcionalno: postavlja tačke unutar liste */
+    list-style: none; /* Skidamo podrazumevane tačke */
+    padding: 0;
 }
+
+.prep li {
+    position: relative;
+    padding-left: 20px; /* Prostor za novu tačku */
+}
+
+.prep li::before {
+    content: "•"; /* Prilagođena tačka */
+    color: hsl(332, 51%, 32%); /* Nova boja tačke */
+    position: absolute;
+    left: 0;
+    font-size: 1.2em; /* Veličina tačke */
+}
+
   
 
 .underline-table{
