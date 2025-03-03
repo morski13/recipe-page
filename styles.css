@@ -3,7 +3,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    height: 100vh;
     background-color:hsl(30, 18%, 87%) ;
 }
 
@@ -58,9 +57,12 @@ li{
 }
 
 .recipe-image{
-    width: 20%;
     height: auto;
-    margin-right: 1rem;
+}
+
+.omelette{
+    width: 100%;
+    border-radius: 20px;
 }
 
 
