@@ -32,9 +32,15 @@ ul {
 
 ol {
     list-style: decimal; /* Vraćamo numerisane oznake za <ol> */
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     line-height: 1.8rem;
     
+}
+
+ol li::marker {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
 }
 
 
