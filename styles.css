@@ -63,6 +63,10 @@ li{
     color: hsl(30, 10%, 34%);
 }
 
+.instructions li{
+    padding-bottom: 10px;
+}
+
 .recipe{
     margin-top: 4rem;
     width: 40%;
