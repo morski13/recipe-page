@@ -7,20 +7,20 @@ body{
 }
 
 h1 {
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     font-size: larger;
     color: hsl(24, 5%, 18%);
 }
 
 h2{
     font-size: large;
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     color: hsl(14, 45%, 36%);
 }
 
 p{
     font-size: smaller;
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
     color: hsl(30, 10%, 34%);
 }
 
@@ -43,7 +43,7 @@ ul li::before, ol li::before {
 }
 
 li{
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
     font-size: smaller;
     color: hsl(30, 10%, 34%);
 }
@@ -67,7 +67,7 @@ li{
 
 .preperation{
     background-color: hsl(330, 100%, 98%);
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
     font-size: smaller;
 }
 
@@ -99,7 +99,7 @@ li{
 .underline-table{
     width: 100%;
     margin: 2rem 0rem;
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
     font-size: 1.2rem;
 }
 
@@ -110,6 +110,6 @@ li{
 }
 
 .numbers{
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
     color: hsl(14, 45%, 36%);
 }
