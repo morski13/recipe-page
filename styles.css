@@ -73,7 +73,7 @@ li{
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     height: fit-content;
-    padding : 20px;
+    padding : 40px;
 }
 
 .recipe-image img {
@@ -88,7 +88,7 @@ li{
     background-color: hsl(330, 100%, 98%);
     font-family: 'Outfit', sans-serif;
     font-size: small;
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px; /* Zaobljene ivice */
 }
 
