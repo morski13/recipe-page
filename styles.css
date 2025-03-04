@@ -27,6 +27,7 @@ p{
 ul {
     list-style: none; /* Skidamo tačke samo sa nenumerisanih lista */
     padding: 0;
+    line-height: 1.8rem;
 }
 
 ol {
