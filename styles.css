@@ -126,9 +126,9 @@ li{
 }
 
 .Ingredients {
-    border-bottom:1px solid hsl(24, 5%, 18%);
+    border-bottom:1px solid hsl(30, 10%, 34%);
 }
 
 .instructions {
-    border-bottom:1px solid hsl(24, 5%, 18%);
+    border-bottom:1px transparent hsl(30, 10%, 34%);
 }
