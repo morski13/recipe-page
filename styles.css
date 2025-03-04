@@ -59,7 +59,7 @@ ul li::before{
 
 li{
     font-family: 'Outfit', sans-serif;
-    font-size: smaller;
+    font-size: small;
     color: hsl(30, 10%, 34%);
 }
 
@@ -120,9 +120,12 @@ li{
     font-size: smaller;
 }
 
-.underline-table td{
+.underline-table tr {
+    border-bottom: 1px solid #000; /* Crna linija ispod celog reda */
+}
+
+.underline-table td {
     padding: 10px;
-    border-bottom: 1px solid #000; /* Crna linija ispod svakog reda */
     text-align: left;
 }
 
