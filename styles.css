@@ -41,7 +41,7 @@ ul li, ol li {
     padding-left: 20px; /* Prostor za novu tačku */
 }
 
-ul li::before, ol li::before {
+ul li::before{
     content: "•"; /* Prilagođena tačka */
     color: hsl(14, 45%, 36%); /* Boja tačke */
     position: absolute;
