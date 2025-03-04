@@ -24,10 +24,16 @@ p{
     color: hsl(30, 10%, 34%);
 }
 
-ul, ol {
-    list-style: none; /* Skidamo podrazumevane tačke */
+ul {
+    list-style: none; /* Skidamo tačke samo sa nenumerisanih lista */
     padding: 0;
 }
+
+ol {
+    list-style: decimal; /* Vraćamo numerisane oznake za <ol> */
+    padding: 0;
+}
+
 
 ul li, ol li {
     position: relative;
@@ -102,7 +108,7 @@ li{
     width: 100%;
     margin: 2rem 0rem;
     font-family: 'Outfit', sans-serif;
-    font-size: 1.2rem;
+    font-size: smaller;
 }
 
 .underline-table td{
@@ -114,4 +120,12 @@ li{
 .numbers{
     font-family: 'Outfit', sans-serif;
     color: hsl(14, 45%, 36%);
+}
+
+.Ingredients {
+    border-bottom:1px solid hsl(24, 5%, 18%);
+}
+
+.instructions {
+    border-bottom:1px solid hsl(24, 5%, 18%);
 }
