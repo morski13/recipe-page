@@ -8,7 +8,7 @@ body{
 
 h1 {
     font-family: 'Young Serif',serif;
-    font-size: larger;
+    font-size: x-large;
     color: hsl(24, 5%, 18%);
 }
 
@@ -69,6 +69,8 @@ li{
     background-color: hsl(330, 100%, 98%);
     font-family: 'Outfit', sans-serif;
     font-size: smaller;
+    padding: 10px;
+    border-radius: 10px; /* Zaobljene ivice */
 }
 
 .prep-time{
