@@ -83,7 +83,7 @@ li{
 .preperation{
     background-color: hsl(330, 100%, 98%);
     font-family: 'Outfit', sans-serif;
-    font-size: smaller;
+    font-size: small;
     padding: 20px;
     border-radius: 10px; /* Zaobljene ivice */
 }
