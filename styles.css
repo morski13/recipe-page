@@ -33,6 +33,8 @@ ul {
 ol {
     list-style: decimal; /* Vraćamo numerisane oznake za <ol> */
     padding: 0;
+    line-height: 1rem;
+    list-style-position: inside;
 }
 
 
